@@ -1,3 +1,5 @@
 document.getElementById('button').addEventListener('click', function() {
-    alert('You clicked the button!');
+    setTimeout(function() {
+    alert('Long five seconds huh?');
+}, 5000);
 });
