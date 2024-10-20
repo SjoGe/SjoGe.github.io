@@ -10,5 +10,5 @@ document.getElementById('nameForm').addEventListener('submit', function(event){
     const firstName = document.getElementById('firstName').value;
     const lastName = document.getElementById('lastName').value;
 
-    alert('Hello, ${firstName} ${lastName}!');
+    alert('Hello, ' + firstName + ' ' + lastName + '!');
 });
