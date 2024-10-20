@@ -12,3 +12,7 @@ document.getElementById('nameForm').addEventListener('submit', function(event){
 
     alert('Hello, ' + firstName + ' ' + lastName + '!');
 });
+
+document.getElementById('openWebsiteButton').addEventListener('click', function(){
+    window.open('https://www.youtube.com/watch?v=d1YBv2mWll0&ab_channel=Sordiway', '_blank');
+});
