@@ -58,3 +58,17 @@ th {
     margin-right: 10px;
     vertical-align: middle;
 }
+
+.flex-list {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.flex-list li {
+    padding: 10px;
+    background-color: lightgray;
+    border-radius: 5px;
+}
